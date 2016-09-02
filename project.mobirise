@@ -1,0 +1,259 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.11",
+    "versionPublish": "2.11",
+    "name": "David's Personal Page",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise"
+    },
+    "favicon": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidreyespucheta/Desktop/personalpage"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "David Reyes Pucheta - Software Engineer",
+        "meta_descr": "Personal Web page of David Reyes Pucheta",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header2",
+          "_styles": {
+            "H1": {
+              "color": "#fac51c",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/16258492451-aae2374331-o-2000x1144-56.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "David Reyes Pucheta",
+          "text": "Software Engineer",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-1",
+          "title": "ABOUT ME",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": ""
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-0",
+          "text": "<p>I am a Software Engineer with 4+ years of experience developing web apps and a good knowledge on mobile and desktop development.</p><p>Easily adaptable to change, always looking to learn new things, self motivated, self taught.</p><p>Ask for my resume at <a href=\"mailto:davidpucheta@gmail.com\">davidpucheta@gmail.com</a></p><p><br></p><p>Main skills: C#, Javascript, HTML5,jQuery, .NET, SQL&nbsp;<br></p><p>Familiar with: Java, Objective C</p><p>Played with: Node, RoR, Angular, Swift, Python</p><p>Interested in: Mobile, Web and Desktop development</p><p>Tools: Git, Xcode, VS, Netbeans, Eclipse</p><p>OSes: OsX, Linux, Windows.&nbsp;</p><p>... and always looking for something new to learn.</p><p><br></p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-0",
+          "title": "PORTFOLIO",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "<br>Below you can see a few examples of my work in my current job. Go &nbsp; &nbsp;to<a href=\"https://github.com/davidpucheta\" target=\"_blank\">GitHub</a> to see some other examples of my code.<br>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/desktop-2000x1164-90.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Virtual Desktop",
+                "showText": true,
+                "text": "A complete desktop-like web platform to launch the company's &nbsp;web apps. Full fledged with multiple &nbsp;desktops (ala linux), desktop search, instant messaging and saving of states.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/front-2015-2000x1250-36.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Virtual Desktop",
+                "showText": true,
+                "text": "Other features include full interactive help, snapshots and favorites.&nbsp;<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/querysdragdrop-2000x1476-7.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Query Generator",
+                "showText": true,
+                "text": "A visual query generator, completely drag and drop, created for the users of the GRP within a sandboxed environment. &nbsp;&nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/recon-2000x1451-22.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "showTitle": true,
+                "title": "Staff Attendance Register",
+                "showText": true,
+                "text": "It's a web app designed to be used with the user's web cam to register attendance. Heavy use of HTML5 capabilities like canvas, media and websockets.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-0",
+          "articleLayout": true
+        },
+        {
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-0",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f0f0f0",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "SOCIAL MEDIA",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/davidpucheta\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a>      <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/davidpucheta\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/davidpucheta\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header3-1\">ABOUT ME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header3-0\">PORTFOLIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#social-buttons2-0\">SOCIAL MEDIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#bottom\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-0",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 David Reyes Pucheta.&nbsp;"
+        },
+        {
+          "_name": "contacts2",
+          "_anchor": "contacts2-0",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Xalapa, Veracruz. Mexico",
+              "placeId": "ChIJ2SXyoRwy24URfKRAQ7w3SFg",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<p><strong>ADDRESS</strong><br>Xalapa, Veracruz.<br>México<br><br>\n<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:davidpucheta@gmail.com\" class=\"text-gray\">davidpucheta@gmail.com</a><br>\nPhone: +52 (228) 824 7357\u001b</p><i class=\"socicon socicon-twitter\"></i>",
+          "text2": ""
+        }
+      ]
+    }
+  }
+}
