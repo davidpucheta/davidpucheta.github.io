@@ -4,7 +4,7 @@
     angular.module('MsgApp', [])
         .controller('MsgController', MsgController);
 
-    MsgController.$inject = [$scope];
+    MsgController.$inject = ['$scope'];
 
     function MsgController($scope) {
         $scope.name = "David";
