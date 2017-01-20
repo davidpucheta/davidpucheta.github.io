@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html ng-app="MsgApp">
+<html ng-app="tooMuchApp">
     <head>
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
         <script src="app.js"></script>
         <style> body { font-size: 1.2em; } </style>
-        <title> Expressions and Interpolation </title>
+        <title> Asssignment 1 </title>
     </head>
 
     <body>
-        <h1>Expressions and Interpolation</h1>
-        <div ng-controller="MsgController">
-           {{name}}: <br>
-            {{sayMessage()}}
-
+        <h1>Asssignment</h1>
+        <div ng-controller="tooMuchController">
             <div>
-                <button ng-click="feedMe">FeedMe</button>
+                <button ng-click="tooMuchBtn">Check If Too Much</button>
+            </div>
+            <div>
+                {{isItTooMuchMessage}}
             </div>
 
         </div>

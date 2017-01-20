@@ -1,13 +1,13 @@
 (function () {
     'use strict';
 
-    angular.module('MsgApp', [])
-        .controller('MsgController', MsgController);
+    angular.module('tooMuchApp', [])
+        .controller('tooMuchController', tooMuchController);
 
-    MsgController.$inject = ['$scope'];
+    tooMuchController.$inject = ['$scope'];
 
-    function MsgController($scope) {
-        $scope.name = "David";
+    function tooMuchController($scope) {
+        $scope.isItTooMuchMessage = "David";
 
         $scope.sayMessage = function(){
             return "David likes to eat peanuts at midnight";
