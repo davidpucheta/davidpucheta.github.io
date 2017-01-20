@@ -1,28 +1,32 @@
 (function () {
     'use strict';
 
+
     angular.module('tooMuchApp', [])
         .controller('tooMuchController', tooMuchController);
 
     //tooMuchController.$inject = ['$scope'];
 
     function tooMuchController($scope) {
-        $scope.isItTooMuchMessage = "David";
+        $scope.isItTooMuchMessage = "";
 
         $scope.tooMuchBtn = function(){
-            var countItems = countItems($scope.list);
+            var count = countItems($scope.list);
 
-            if (countItems === 0){
+            if (count === 0){
                 $scope.isItTooMuchMessage =  "Empty";
             } else {
-                countItems > 3 ? $scope.isItTooMuchMessage = "Too much!" : $scope.isItTooMuchMessage = "Enjoy!";
+                count > 3 ? $scope.isItTooMuchMessage = "Too much!" : $scope.isItTooMuchMessage = "Enjoy!";
             }
         };
 
         function countItems(items){
-        var arrItems = items.split(",")
-        return arrItems.length;
-    }
+            if(items === undefined ){
+                return 0;
+            }
+            var arrItems = items.split(",")
+            return arrItems.length;
+        }
     }
 
     
