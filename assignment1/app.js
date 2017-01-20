@@ -21,7 +21,7 @@
         };
 
         function countItems(items){
-            if(items === undefined ){
+            if(items === undefined || items === 0){
                 return 0;
             }
             var arrItems = items.split(",")
