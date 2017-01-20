@@ -12,7 +12,7 @@
         $scope.isItTooMuchMessage = "";
 
         $scope.tooMuchBtn = function(){
-            var count = countItems($scope.list.trim());
+            var count = countItems($scope.list);
 
             if (count === 0){
                 $scope.isItTooMuchMessage =  "Please enter data first";
@@ -22,12 +22,15 @@
         };
 
         function countItems(items){
-            if(items === undefined || items === 0){
+            
+            if(items === ""){
                 return 0;
             }
             var arrItems = items.split(",")
+            console.log("'" + items + "'");
             return arrItems.length;
         }
+        
     }
 
     
