@@ -9,9 +9,20 @@
     function tooMuchController($scope) {
         $scope.isItTooMuchMessage = "David";
 
-        $scope.sayMessage = function(){
-            return "David likes to eat peanuts at midnight";
-        };
+        $scope.tooMuchBtn = function(){
+            var countItems = countItems($scope.list);
 
+            if (countItems === 0){
+                $scope.isItTooMuchMessage =  "Empty";
+            } else {
+                countItems > 3 ? $scope.isItTooMuchMessage = "Too much!" : $scope.isItTooMuchMessage = "Enjoy!";
+            }
+        };
     }
+
+    function countItems(items){
+        var arrItems = items.split(",")
+        return arrItems.length;
+    }
+
 })();
