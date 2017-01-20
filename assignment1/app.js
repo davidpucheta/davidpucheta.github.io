@@ -27,7 +27,6 @@
                 return 0;
             }
             var arrItems = items.split(",")
-            console.log("'" + items + "'");
             return arrItems.length;
         }
         
