@@ -4,7 +4,7 @@
     angular.module('tooMuchApp', [])
         .controller('tooMuchController', tooMuchController);
 
-    tooMuchController.$inject = ['$scope'];
+    //tooMuchController.$inject = ['$scope'];
 
     function tooMuchController($scope) {
         $scope.isItTooMuchMessage = "David";
