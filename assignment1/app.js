@@ -18,11 +18,13 @@
                 countItems > 3 ? $scope.isItTooMuchMessage = "Too much!" : $scope.isItTooMuchMessage = "Enjoy!";
             }
         };
-    }
 
-    function countItems(items){
+        function countItems(items){
         var arrItems = items.split(",")
         return arrItems.length;
     }
+    }
+
+    
 
 })();
