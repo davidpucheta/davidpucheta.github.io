@@ -8,10 +8,11 @@
     //tooMuchController.$inject = ['$scope'];
 
     function tooMuchController($scope) {
+       $scope.list = "";
         $scope.isItTooMuchMessage = "";
 
         $scope.tooMuchBtn = function(){
-            var count = countItems($scope.list);
+            var count = countItems($scope.list.trim());
 
             if (count === 0){
                 $scope.isItTooMuchMessage =  "Please enter data first";
