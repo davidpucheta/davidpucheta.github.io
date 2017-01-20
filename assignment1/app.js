@@ -14,7 +14,7 @@
             var count = countItems($scope.list);
 
             if (count === 0){
-                $scope.isItTooMuchMessage =  "Empty";
+                $scope.isItTooMuchMessage =  "Please enter data first";
             } else {
                 count > 3 ? $scope.isItTooMuchMessage = "Too much!" : $scope.isItTooMuchMessage = "Enjoy!";
             }
